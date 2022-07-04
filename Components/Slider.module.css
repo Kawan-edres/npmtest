@@ -1,0 +1,90 @@
+
+  .headerContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    overflow: hidden;
+  
+  }
+  .headerTitle{
+    /* padding: 2rem; */
+    text-align: center;
+    color: #000;
+    text-shadow: 2px 2px 2px #000 ;
+
+}
+.title{
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 2px #000 ;
+    font-size: 6rem;
+    overflow: hidden;
+
+
+    
+  }
+  
+.kawan{
+  
+    height: 700px;
+    background-color: #e5e5e5;
+    padding: 5rem;
+    overflow: auto;
+    /* background-color: aqua; */
+    
+}
+.info{
+    display: flex;
+    justify-content: space-around ;
+    font-size: 2rem;
+    overflow: hidden;
+}
+.h1{
+    padding:2rem 0 ;
+}
+.p{
+    max-width: 700px;
+    height: 400px;
+    margin-top: 50px;
+    line-height: 2 ;
+}
+
+
+
+
+.kawan2{
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+
+}
+.kawan3{
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+
+}
+
+.img{
+    background-position: center;
+}
+
+
+
+
+@media screen  and (max-width:1500px){
+    .info{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .p{
+        text-align: center;
+        margin-top: 0;
+        height: 300px;
+
+    }
+    
+}
